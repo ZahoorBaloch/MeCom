@@ -25,6 +25,7 @@ dependencies {
 	providedRuntime("org.springframework.boot:spring-boot-starter-tomcat-runtime")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
+	testImplementation("org.seleniumhq.selenium:selenium-java:4.28.1")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
 
